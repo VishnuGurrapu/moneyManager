@@ -1,0 +1,70 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.table-row {
+  display: flex;
+  list-style-type: none;
+  border-left: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+}
+
+.table-cell {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 577px) {
+  .table-cell {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+}
+.name-column {
+  width: 28%;
+  padding-left: 8px;
+}
+.last-column {
+  padding-left: 8px;
+  width: 44%;
+  border-right: none;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-no-column {
+  flex-grow: 1;
+}
+
+.mobile-no-value {
+  flex-grow: 1;
+}
+.delete-icon-container {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  background: transparent;
+  margin-right: 15px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+@media screen and (max-width: 577px) {
+  .delete-icon {
+    background: transparent;
+    margin-right: 15px;
+    height: 16px;
+    align-self: center;
+    border: none;
+    outline: none;
+  }
+}

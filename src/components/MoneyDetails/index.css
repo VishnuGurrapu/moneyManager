@@ -1,0 +1,74 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.moneyDetailsContainer {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 15px;
+}
+@media screen and (min-width: 768px) {
+  .moneyDetailsContainer {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.moneyDetailItem {
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .moneyDetailItem {
+    padding: 20px;
+    border-radius: 15px;
+    width: 31%;
+  }
+}
+.moneyDetail1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.moneyDetail2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.moneyDetail3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.itemContainer {
+}
+img {
+  height: 70px;
+}
+.text {
+  color: #1e293b;
+  font-size: 15px;
+}
+.inRupees {
+  color: #1e293b;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .inRupees {
+    color: #1e293b;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text {
+    color: #1e293b;
+    font-size: 15px;
+  }
+}
