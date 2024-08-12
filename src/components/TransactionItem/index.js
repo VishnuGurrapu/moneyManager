@@ -22,6 +22,7 @@ const TransactionItem = props => {
         <p className="mobile-no-value">{type}</p>
 
         <button
+        data-testid="delete"
           className="delete-icon-container name-column"
           onClick={deleteItemBtn}
         >

@@ -69,7 +69,7 @@ class MoneyManager extends Component {
       this.setState({
         historyList: updatedHistoryList,
         title: '',
-        amount: '', 
+        amount: '',
         type: transactionTypeOptions[0].optionId, // Reset type to default
         balance: newBalance,
         income: newIncome,
@@ -126,7 +126,7 @@ class MoneyManager extends Component {
 
         <div className="transactionAndHistoryContainer">
           <div className="formContainer">
-            <p className="heading">Add Transaction</p>
+            <h1 className="heading">Add Transaction</h1>
             <form className="contact-form-container" onSubmit={this.onAdd}>
               <label className="Label" htmlFor="title">
                 TITLE
@@ -138,6 +138,7 @@ class MoneyManager extends Component {
                 onChange={this.onChangeTitle}
                 className="input"
                 placeholder="TITLE"
+                type="text"
               />
               <br />
               <label className="Label" htmlFor="amount">
@@ -150,7 +151,7 @@ class MoneyManager extends Component {
                 value={amount}
                 onChange={this.onChangeAmount}
                 placeholder="AMOUNT"
-                type="number"
+                type="text"
               />
               <br />
               <label className="Label" htmlFor="type">
@@ -176,7 +177,7 @@ class MoneyManager extends Component {
             </form>
           </div>
           <div className="history-table">
-            <p className="heading">History</p>
+            <h1 className="heading">History</h1>
             <ul className="history">
               <li className="table-header">
                 <p className="table-header-cell name-column">TITLE</p>
